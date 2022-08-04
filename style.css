@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Menganggap fiv dengan class="logo" dan elemen ul adalah item sehingga dapat diterapkan konsep flexbox*/
+nav {
+  display: flex;
+  background-color: rgb(184, 15, 119);
+  justify-content: space-around;
+  padding: 20px 0;
+  color: azure;
+}
+
+/* menerapkan flexbox dengan menerapkan display;=: flex; pada ul dan menganggap li adalah item */
+nav ul {
+  display: flex;
+  list-style: none;
+  width: 40%;
+  justify-content: space-evenly;
+}
+
+nav .logo img {
+  width: 30px;
+}
+
+nav ul li a {
+  color: azure;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  font-weight: bold;
+}
+
+article {
+  height: 79vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a {
+  color: azure;
+  text-decoration: none;
+}
+footer {
+  background-color: rgb(184, 15, 119);
+  color: azure;
+  padding: 20px;
+  text-align: center;
+}
